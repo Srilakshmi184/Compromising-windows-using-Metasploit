@@ -41,20 +41,18 @@ copy the fun.exe into the apache /var/www/html folder
 ## OUTPUT:
 
 
-
+<img width="319" height="46" alt="image" src="https://github.com/user-attachments/assets/e0a82961-0370-4ac0-83f1-f0767d6ed213" />
 
 Start apache server
 sudo systemctl apache2 start
+
 ## OUTPUT:
 
-<img width="319" height="46" alt="image" src="https://github.com/user-attachments/assets/e0a82961-0370-4ac0-83f1-f0767d6ed213" />
 
 
 Check the status of apache2
-## OUTPUT:
 
 <img width="1120" height="616" alt="image" src="https://github.com/user-attachments/assets/57c5ebda-7dee-462f-aa2e-8ef0e1c81ed7" />
-
 
 
 Invoke msfconsole:
@@ -146,10 +144,6 @@ keyscan_dump	Shows the keystrokes captured so far
 
 <img width="1200" height="118" alt="244990920-d40a4428-0c65-4855-be1d-c278766082fb" src="https://github.com/user-attachments/assets/34fc0541-d907-41c8-bdd3-9a9eab590811" />
 
-
-
-## RESULT:
-The Metasploit framework is  used to compromise windows and is examined successfully.
 
 
 ## RESULT:
