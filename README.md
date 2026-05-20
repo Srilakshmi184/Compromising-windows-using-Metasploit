@@ -100,6 +100,7 @@ Bypass any warning boxes, double-click the file, and allow it to run.
 On kali/parrot give the command exploit
 ## OUTPUT:
 
+<img width="843" height="710" alt="244990924-7e6e28fb-b095-4fd1-81f8-a0292f82c9a2" src="https://github.com/user-attachments/assets/b9b94af1-3d4f-4f78-86c6-9557653e4ca5" />
 
 
 To see a list of processes, at the meterpreter > prompt, execute this command:
@@ -116,12 +117,16 @@ At the meterpreter > prompt, execute this command:
 migrate -N explorer.exe
 ## OUTPUT:
 
+<img width="843" height="710" alt="244990924-7e6e28fb-b095-4fd1-81f8-a0292f82c9a2" src="https://github.com/user-attachments/assets/8c46046a-115e-4ddf-b752-b86748d8446c" />
 
 at meterpreter > prompt, execute this command:
 netstat
 A list of network connections appears, including one to a remote port of 4444, as highlighted in the image below.
 Notice the "PID/Program name" value for this connection, which is redacted 
 ## OUTPUT:
+
+<img width="1600" height="837" alt="244990928-836e6efa-423f-4553-ad2f-19170b010892" src="https://github.com/user-attachments/assets/5e2046e1-c45b-459b-adaa-e3aebf3d7cef" />
+
 
 
 
@@ -131,10 +136,16 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 ## OUTPUT:
 
 
+<img width="1074" height="571" alt="244990952-35be18d7-51b0-4529-8fd8-76740f0c9ba6" src="https://github.com/user-attachments/assets/65316598-ba60-47ee-9d44-25432eda3ab5" />
+
+
 
 
 keyscan_dump	Shows the keystrokes captured so far
 ## OUTPUT:
+
+<img width="1200" height="118" alt="244990920-d40a4428-0c65-4855-be1d-c278766082fb" src="https://github.com/user-attachments/assets/34fc0541-d907-41c8-bdd3-9a9eab590811" />
+
 
 
 ## RESULT:
